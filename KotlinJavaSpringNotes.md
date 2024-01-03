@@ -13,6 +13,7 @@ Links for Markdown documentation:
 - Asynchronous and non-blocking
 - Can be paused and resumed
 
+<br/>
 
 #### 📑 Nullable Types  
 Good source: https://medium.com/@fatihcoskun/kotlin-nullable-types-vs-java-optional-988c50853692
