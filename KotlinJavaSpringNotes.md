@@ -6,9 +6,9 @@ Links for Markdown documentation:
 - https://www.markdownguide.org/extended-syntax/
 
 
-## Kotlin
+## 💜 Kotlin 💜
 
-### Functions
+### ✨ Functions
 
 #### 📑 Suspending function   
 Docs: https://kotlinlang.org/docs/composing-suspending-functions.html
@@ -43,6 +43,12 @@ Docs: https://kotlinlang.org/docs/collection-filtering.html
 - 
 
 <br/>
+
+---
+
+<br/>
+
+### ✨ Null safety 
 
 #### 📑 Nullable Types  
 Good source: https://medium.com/@fatihcoskun/kotlin-nullable-types-vs-java-optional-988c50853692  
