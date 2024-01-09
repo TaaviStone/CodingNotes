@@ -54,6 +54,9 @@ Docs: https://kotlinlang.org/docs/collection-filtering.html
 Good source: https://medium.com/@fatihcoskun/kotlin-nullable-types-vs-java-optional-988c50853692  
 Docs: https://kotlinlang.org/docs/null-safety.html#nullable-receiver
 
+***Non-nullable type***
+
+
 **Elvis operator *:?***
 
 ```kotlin
@@ -75,6 +78,8 @@ for (item in listWithNulls) {
 Used to o perform a certain operation only for non-null values
 
 <br/><br/>
+
+**Either**
 
 ## Spring
 

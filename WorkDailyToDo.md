@@ -17,24 +17,42 @@ Links for Markdown documentation:
 
 #### 08.01
 Questions:
-- [ ] Pet  missing from FGW1 RecallBooking response (only added to costDetails PET ON BOARD)
-- [ ] Pet ID and vehicle ID come our own FGW generated?
+- [x] Pet category missing from FGW1 RecallBooking response (only added to costDetails PET ON BOARD)
+- [x] Pet ID and vehicle ID come our own FGW generated?
 - [x] FGW2-8 How should we find contact person
-- [ ] FGW2-8 Make sure that we need to take first city or return null from clientFragment
-- [ ] FGW2-8 What about trailers, are relevant?
-- [ ] FGW2-8 Vehicle code vs operatorCode: *Lead vehicle code as assigned by Ferrygateway association. One of Code or OperatorCode must be supplied, if both are supplied the OperatorCode will be used.*
+- [x] FGW2-8 Make sure that we need to take first city or return null from clientFragment
+- [x] FGW2-8 Vehicle code vs operatorCode: *Lead vehicle code as assigned by Ferrygateway association. One of Code or OperatorCode must be supplied, if both are supplied the OperatorCode will be used.*
 
 From Ekaterina
-- [ ] Request with multiple vehicles (trailers)
+- [x] Request with multiple vehicles (trailers)
 
 Tasks:
-- [ ] FGW2-8 Add Vechicles to FGW response
-- [ ] FGW2-8 Add Pets to FGW response
-- [ ] FGW2-8 Finish with the endpoint test content
+- [x] FGW2-8 Add Lead vehicle to FGW response
+
 
 
 <br/>
 
-#### 09.01
+### 09.01
+- [ ] FGW2-8 Add Trailers to FGW response
+- [ ] FGW2-8 Refactor carDeck.toVehicle
+- [ ] FGW2-8 Finish with the endpoint test content
+
+Questions:  
+- [ ] Do we need "CODE" in FGW or use straight SW OperatorCode
+
+<br/>
+
+### 10.01
 - [ ] FGW2-8 Handle case where booking is not found
 - [ ] FGW2-8 Add BookResponseLinks to FGW response
+
+
+<br/>
+
+
+household - should look active, look primary address
+- also mobile number from there too
+- mobile number with international code
+
+Pet classification added under SW addons
