@@ -34,25 +34,59 @@ Tasks:
 <br/>
 
 ### 09.01
-- [ ] FGW2-8 Add Trailers to FGW response
-- [ ] FGW2-8 Refactor carDeck.toVehicle
+- [x] FGW2-8 Refactor carDeck.toVehicle
+
+<br/>
+
+### 11.01
+- [x] FGW2-8 Finish up with Contact details
+
+### 12.01
+- [ ] FGW2-8 Start adding Jacoco Unit tests
+- [ ] FGW2-8 Add FGW_PET classification to PET
 - [ ] FGW2-8 Finish with the endpoint test content
 
-Questions:  
-- [ ] Do we need "CODE" in FGW or use straight SW OperatorCode
-
-<br/>
-
-### 10.01
+### 17.01
+- [ ] FGW2-8 Look into problems raised by Igor
 - [ ] FGW2-8 Handle case where booking is not found
+- [ ] FGW2-8 Add Trailers to FGW response
 - [ ] FGW2-8 Add BookResponseLinks to FGW response
 
-
 <br/>
 
+
+#### Big questions about FGW2-8
+
+**Business**  
+
+*vehicles* 
+- [ ] Do we need "CODE" in FGW or use straight SW OperatorCode
+- [ ] Vehicles Trailers
 
 household - should look active, look primary address
 - also mobile number from there too
 - mobile number with international code
 
 Pet classification added under SW addons
+
+**Technical**
+
+[ ] - How should error handling look like?
+
+
+<br/>
+
+**Missing**
+- Error handling for no reservation
+- Error handling for some other reservation (GraphQl) issues
+- Comments under https://jira.fleet.zone/projects/FGW2/issues/FGW2-8?filter=myopenissues
+- BookResponseLinks missing 
+- Some fields in vehicles (Question about FGW code), hire car, BikeOnBack, RoofLoad, Make, Model, FuelType, width
+- Missing trailer from response (how should be used?)
+
+
+### Different reservations for testing
+
+- 70030822 - Pets
+- 70306648 - has vehicles Lead and Trailer 
+- 498 - Client with full address fields

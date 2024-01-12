@@ -1,5 +1,4 @@
-
-# General Notes from Daily Programming
+# General Notes from Daily Programming at work
 
 Links for Markdown documentation:
 - https://www.markdownguide.org/basic-syntax/
@@ -7,6 +6,9 @@ Links for Markdown documentation:
 
 
 ## 💜 Kotlin 💜
+
+See variable type - *Ctrl + Shift + P*  
+Val quick docs - *Ctrl + Q*
 
 ### ✨ Functions
 
@@ -52,10 +54,15 @@ Docs: https://kotlinlang.org/docs/collection-filtering.html
 
 #### 📑 Nullable Types  
 Good source: https://medium.com/@fatihcoskun/kotlin-nullable-types-vs-java-optional-988c50853692  
-Docs: https://kotlinlang.org/docs/null-safety.html#nullable-receiver
+Docs: https://kotlinlang.org/docs/null-safety.html
 
-***Non-nullable type***
+**Not-null assertion operator  *!!***  
+Converts any value to non-nullable type and throws an exeption if the value is null.
 
+**Safe call operator  *?.***  
+Returns ```null``` if value itself is null. Good to use in chains
+
+<br/>
 
 **Elvis operator *:?***
 
