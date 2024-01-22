@@ -8,14 +8,14 @@ Links for Markdown documentation:
 
 ## ⛴️ FGW 2.0
 
-#### 05.01
+### 🗓️ 05.01
 *Notes:*
 
 69785002 - FGW1 reservation with pet
 70030822 - FGW2 with everything
 
 
-#### 08.01
+### 🗓️ 08.01
 Questions:
 - [x] Pet category missing from FGW1 RecallBooking response (only added to costDetails PET ON BOARD)
 - [x] Pet ID and vehicle ID come our own FGW generated?
@@ -33,28 +33,35 @@ Tasks:
 
 <br/>
 
-### 09.01
+### 🗓️ 09.01
 - [x] FGW2-8 Refactor carDeck.toVehicle
 
 <br/>
 
-### 11.01
+### 🗓️ 11.01
 - [x] FGW2-8 Finish up with Contact details
 
-### 12.01
+### 🗓️ 12.01
 - [x] FGW2-8 Start adding Jacoco Unit tests
 
 
-### 17.01
+### 🗓️ 17.01
 - [x] FGW2-8 Continue with unit tests
 - [x] FGW2-8 Merge Svetlana branch with mine
 
-### 18.01
+### 🗓️ 18.01
 - [x] FGW2-8 Continue with unit tests
 
 
-### 22.01
-- [ ] FGW2-8 Finish with the endpoint test content
+### 🗓️ 22.01
+- [ ] FGW2-8 Look into Igor code review changes
+- [ ] FGW2-8 Map out exactly what has been implemented
+- [ ] FGW2-8 Look how current developments work with legacy responses from DB
+
+</br>
+
+### 🗓️ 23.01
+
 
 Questions  
 - s Do all LeadVehicleType values need to be implemented from schema?
@@ -68,6 +75,7 @@ Questions
 - [ ] FGW2-8 Add Trailers to FGW response
 - [ ] FGW2-8 Add BookResponseLinks to FGW response
 - [ ] FGW2-8 Add FGW_PET classification to PET
+- [ ] FGW2-8 Finish with the endpoint test content
 
 <br/>
 
