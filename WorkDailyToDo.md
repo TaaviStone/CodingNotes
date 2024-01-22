@@ -42,15 +42,32 @@ Tasks:
 - [x] FGW2-8 Finish up with Contact details
 
 ### 12.01
-- [ ] FGW2-8 Start adding Jacoco Unit tests
-- [ ] FGW2-8 Add FGW_PET classification to PET
-- [ ] FGW2-8 Finish with the endpoint test content
+- [x] FGW2-8 Start adding Jacoco Unit tests
+
 
 ### 17.01
+- [x] FGW2-8 Continue with unit tests
+- [x] FGW2-8 Merge Svetlana branch with mine
+
+### 18.01
+- [x] FGW2-8 Continue with unit tests
+
+
+### 22.01
+- [ ] FGW2-8 Finish with the endpoint test content
+
+Questions  
+- s Do all LeadVehicleType values need to be implemented from schema?
+- What will do with the FGW code
+- Now will not take phone from household but from mobilephone?
+- 
+
+### UNDONE:
 - [ ] FGW2-8 Look into problems raised by Igor
 - [ ] FGW2-8 Handle case where booking is not found
 - [ ] FGW2-8 Add Trailers to FGW response
 - [ ] FGW2-8 Add BookResponseLinks to FGW response
+- [ ] FGW2-8 Add FGW_PET classification to PET
 
 <br/>
 
@@ -60,12 +77,8 @@ Tasks:
 **Business**  
 
 *vehicles* 
-- [ ] Do we need "CODE" in FGW or use straight SW OperatorCode
-- [ ] Vehicles Trailers
-
-household - should look active, look primary address
-- also mobile number from there too
-- mobile number with international code
+- [x] Do we need "CODE" in FGW or use straight SW OperatorCode
+- [x] Vehicles Trailers
 
 Pet classification added under SW addons
 
@@ -90,3 +103,11 @@ Pet classification added under SW addons
 - 70030822 - Pets
 - 70306648 - has vehicles Lead and Trailer 
 - 498 - Client with full address fields
+
+error 200 vs 400
+
+
+What is DONE (works on).
+Unit test for every element.
+
+sw-dev

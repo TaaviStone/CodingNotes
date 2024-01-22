@@ -26,6 +26,9 @@ Docs: https://kotlinlang.org/docs/extensions.html
 
 - 
 
+
+#### 📑 runBlocking
+
 <br/>
 
 ---
@@ -87,6 +90,13 @@ Used to o perform a certain operation only for non-null values
 <br/><br/>
 
 **Either**
+
+<br/><br/>
+
+### ✨ Miscellaneous
+
+#### Singelton method  
+Good source: https://www.geeksforgeeks.org/singleton-class-java/
 
 ## Spring
 
