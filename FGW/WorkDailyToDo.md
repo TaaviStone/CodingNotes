@@ -54,24 +54,37 @@ Tasks:
 
 
 ### 🗓️ 22.01
-- [ ] FGW2-8 Look into Igor code review changes
-- [ ] FGW2-8 Map out exactly what has been implemented
-- [ ] FGW2-8 Look how current developments work with legacy responses from DB
+- [x] FGW2-8 Look into Igor code review changes
+- [x] FGW2-8 Map out exactly what has been implemented
 
 </br>
 
 ### 🗓️ 23.01
+- [ ] FGW2-8 Add unit tests for test coverage
+- [x] Split task into multiple subtasks
+    - Add error handling to RecallBooking
+        - Connected to the Messages to the RecallBooking response
+    - Add ContactDetails to the RecallBooking response
+    - Add Passengers to the RecallBooking response
+    - Add Vehicles to the RecallBooking response
+    - Implement FerryComponents fully in the the RecallBooking response
+    - Add Context to the RecallBooking response
+    - Add Pets to the RecallBooking response
+    - Add TPE to the RecallBooking response
+    Will we implement QrCode 
+    - Add QrCode to the RecallBooking response
 
+### 🗓️ 24.01
+- [ ] FGW2-8 Look how current developments work with legacy responses from DB
+- [ ] FGW2-8 Fix where Client object is taken - should be from contacts
 
 Questions  
-- s Do all LeadVehicleType values need to be implemented from schema?
+- Do all LeadVehicleType values need to be implemented from schema?
 - What will do with the FGW code
 - Now will not take phone from household but from mobilephone?
-- 
 
 ### UNDONE:
 - [ ] FGW2-8 Look into problems raised by Igor
-- [ ] FGW2-8 Handle case where booking is not found
 - [ ] FGW2-8 Add Trailers to FGW response
 - [ ] FGW2-8 Add BookResponseLinks to FGW response
 - [ ] FGW2-8 Add FGW_PET classification to PET
@@ -111,6 +124,7 @@ Pet classification added under SW addons
 - 70030822 - Pets
 - 70306648 - has vehicles Lead and Trailer 
 - 498 - Client with full address fields
+- 70306701 - in FGW1
 
 error 200 vs 400
 

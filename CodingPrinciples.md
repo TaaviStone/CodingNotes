@@ -8,11 +8,15 @@ Links for Markdown documentation:
 
 *YAGNI* - You Aren't Gonna Need It
 
-<pre>
 SOLID
 - Single responsibility principle  
 - Open-closed principle  
 - Liskov substitution principle  
 - Interface segregation principle  
 - Dependency inversion principle
-</pre>
+
+value object
+firstNotNull, null otsing varakult
+filterNotNull
+usage
+kotlin pattern matching
