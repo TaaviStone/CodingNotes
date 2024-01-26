@@ -61,7 +61,7 @@ Tasks:
 
 ### 🗓️ 23.01
 - [ ] FGW2-8 Add unit tests for test coverage
-- [x] Split task into multiple subtasks
+- [x] Split task into multiple subtasks:
     - Add error handling to RecallBooking
         - Connected to the Messages to the RecallBooking response
     - Add ContactDetails to the RecallBooking response
@@ -74,9 +74,18 @@ Tasks:
     Will we implement QrCode 
     - Add QrCode to the RecallBooking response
 
-### 🗓️ 24.01
-- [ ] FGW2-8 Look how current developments work with legacy responses from DB
-- [ ] FGW2-8 Fix where Client object is taken - should be from contacts
+### 🗓️ 25.01
+- [x] FGW2-7 Fix where Client object is taken - should be from contacts
+- [x] Get full unit test coverage
+- [x] Remove false .ignoringFields from RecallWebBookingTest
+- [x] Add Endpoint test
+
+### 🗓️ 26.01
+- [x] Code review with Igor
+- [ ] FGW2-39 Implement missing fields for contact person
+
+###
+
 
 Questions  
 - Do all LeadVehicleType values need to be implemented from schema?
@@ -84,6 +93,7 @@ Questions
 - Now will not take phone from household but from mobilephone?
 
 ### UNDONE:
+- [ ] FGW2-8 Look how current developments work with legacy responses from DB
 - [ ] FGW2-8 Look into problems raised by Igor
 - [ ] FGW2-8 Add Trailers to FGW response
 - [ ] FGW2-8 Add BookResponseLinks to FGW response
@@ -124,12 +134,8 @@ Pet classification added under SW addons
 - 70030822 - Pets
 - 70306648 - has vehicles Lead and Trailer 
 - 498 - Client with full address fields
+- 70306731 - some Svetlanas
+
 - 70306701 - in FGW1
 
 error 200 vs 400
-
-
-What is DONE (works on).
-Unit test for every element.
-
-sw-dev
