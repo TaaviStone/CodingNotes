@@ -82,10 +82,33 @@ Tasks:
 
 ### 🗓️ 26.01
 - [x] Code review with Igor
-- [ ] FGW2-39 Implement missing fields for contact person
+- [x] FGW2-39 Implement missing fields for contact person
 
-###
+### 🗓️ 29.01
+- [x] FGW2-39 Refactor unit test and TestDataDSL
+- [x] FGW2-39 Fix Tests
 
+### 🗓️ 30.01
+- [x] FGW2-40 Questions about Vehicles
+- [x] FGW2-39 Test if all fields are correct
+- [x] FGW2-39 Test ISO mapping
+- [x] FGW2-39 TypeKey to enum
+
+### 🗓️ 31.01
+- [x] FGW2-40 Add enum class for length and height to vehicle code and operatorCode
+- [x] FGW2-40 Add vehicleCodes logic to response 
+- [x] FGW2-40 Increase carDeck test coverage
+- [x] FGW2-39 Fix ClientFragmentExtTests
+- [x] FGW2-39 Fix RecallWebBookTests
+
+### 🗓️ 01.02
+- [x] FGW2-8 Implement enpoint test for RecallBooking
+- [ ] FGW2-39 Add test for invalid referenceId and bookingNotFound
+
+### 🗓️ 02.02
+- [ ] FGW2-39 Increase ClientFragmentExtTest coverage
+- [ ] FGW2-40 Increase Common test coverage (when Vehicle logic is finalized)
+- [ ] FGW2-41 .. 
 
 Questions  
 - Do all LeadVehicleType values need to be implemented from schema?
