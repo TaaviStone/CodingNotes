@@ -15,6 +15,8 @@ SOLID
 - Interface segregation principle  
 - Dependency inversion principle
 
+
+
 value object
 firstNotNull, null otsing varakult
 filterNotNull

@@ -103,12 +103,16 @@ Tasks:
 
 ### 🗓️ 01.02
 - [x] FGW2-8 Implement enpoint test for RecallBooking
-- [ ] FGW2-39 Add test for invalid referenceId and bookingNotFound
 
 ### 🗓️ 02.02
-- [ ] FGW2-39 Increase ClientFragmentExtTest coverage
+- [x] FGW2-38 Add test for invalid referenceId and bookingNotFound
+- [x] FGW2-40 Add ID to vehicles and add valid logic 
+
+### 🗓️ 05.02
+- [ ] VehicleRefs
+- [ ] FGW2-8 Valid payload, namespace
 - [ ] FGW2-40 Increase Common test coverage (when Vehicle logic is finalized)
-- [ ] FGW2-41 .. 
+- [ ] FGW2-39 Increase ClientFragmentExtTest coverage
 
 Questions  
 - Do all LeadVehicleType values need to be implemented from schema?
@@ -158,6 +162,9 @@ Pet classification added under SW addons
 - 70306648 - has vehicles Lead and Trailer 
 - 498 - Client with full address fields
 - 70306731 - some Svetlanas
+- 70359795
+
+70306844
 
 - 70306701 - in FGW1
 
