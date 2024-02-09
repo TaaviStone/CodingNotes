@@ -10,3 +10,5 @@ Links for Markdown documentation:
 Type info - ctrl + shift + P  
 Expand / collapse code block - Ctrl + Shift + "-" or "+"  
 Quick documentation - Ctrl + Q
+Caller hierarchy - Ctrl + Alt + H
+

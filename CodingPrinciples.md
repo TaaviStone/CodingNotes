@@ -15,6 +15,9 @@ SOLID
 - Interface segregation principle  
 - Dependency inversion principle
 
+Technical Depth
+- a
+
 
 
 value object

@@ -106,13 +106,25 @@ Tasks:
 
 ### 🗓️ 02.02
 - [x] FGW2-38 Add test for invalid referenceId and bookingNotFound
-- [x] FGW2-40 Add ID to vehicles and add valid logic 
+- [x] FGW2-40 Add ID to vehicles and add valid logic
 
-### 🗓️ 05.02
-- [ ] VehicleRefs
-- [ ] FGW2-8 Valid payload, namespace
-- [ ] FGW2-40 Increase Common test coverage (when Vehicle logic is finalized)
-- [ ] FGW2-39 Increase ClientFragmentExtTest coverage
+### 🗓️ 08.02
+- [x] FGW2-42 Increacse CreateBookInputService coverage
+- [x] FGW2-42 Increacse and refactor PassengerBookTypeExt coverage
+- [x] FGW2-42 Add test for BookRequestExt??? - *needs to be deleted, not used*
+- [x] FGW2-42 Add test for ReturnedRequestTypeExt - *needs to be deleted, not used*
+- [x] FGW2-42 Increase SailingBookRequestTypeExt coverage
+
+### 🗓️ 09.02
+- [ ] FGW2-42 Increase ContactDetailsTypeExt coverage
+- [ ] FGW2-42 Increase IdentityCategoryTypeExt coverage
+- [ ] FGW2-42 Increase ReservationFragmentGuestExt coverage
+- [ ] FGW2-42 Increase ReservationFragmentExt coverage
+- [ ] FGW2-42 Increase ClientFragmentExt coverage
+- [ ] FGW2-42 BookWebServiceTest refactor data
+- [ ] FGW2-42 Update the endpoint test content
+- [ ] FGW2-42 Increase Common test coverage (when Vehicle logic is finalized)
+- [ ] FGW2-42 Increase ClientFragmentExtTest coverage
 
 Questions  
 - Do all LeadVehicleType values need to be implemented from schema?
@@ -120,12 +132,10 @@ Questions
 - Now will not take phone from household but from mobilephone?
 
 ### UNDONE:
-- [ ] FGW2-8 Look how current developments work with legacy responses from DB
-- [ ] FGW2-8 Look into problems raised by Igor
-- [ ] FGW2-8 Add Trailers to FGW response
 - [ ] FGW2-8 Add BookResponseLinks to FGW response
 - [ ] FGW2-8 Add FGW_PET classification to PET
-- [ ] FGW2-8 Finish with the endpoint test content
+- [ ] FGW2-8 Valid payload, namespace
+- [ ] VehicleRefs
 
 <br/>
 
