@@ -116,26 +116,75 @@ Tasks:
 - [x] FGW2-42 Increase SailingBookRequestTypeExt coverage
 
 ### 🗓️ 09.02
-- [ ] FGW2-42 Increase ContactDetailsTypeExt coverage
-- [ ] FGW2-42 Increase IdentityCategoryTypeExt coverage
-- [ ] FGW2-42 Increase ReservationFragmentGuestExt coverage
-- [ ] FGW2-42 Increase ReservationFragmentExt coverage
-- [ ] FGW2-42 Increase ClientFragmentExt coverage
-- [ ] FGW2-42 BookWebServiceTest refactor data
+- [x] FGW2-42 Increase ContactDetailsTypeExt coverage -> kahtlane
+- [x] FGW2-42 Increase IdentityCategoryTypeExt coverage
+
+
+### 🗓️ 13.02
+- [x] FGW2-45 Create successful reservation with CAR inside SW
+- [x] FGW2-45 Write out logic flow of adding a car and what are restrictions of FGW and of SW
+
+
+### 🗓️ 14.02
+- [x] FGW2-45 Add basic vehicle logic
+- [x] FGW2-45 Add SailLeg logic
+
+### 🗓️ 15.02
+- [x] FGW2-45 Increase test coverage to green
+- [x] FGW2-45 Add tests for VehicleTypeExt 
+- [x] FGW2-45 Add tests for CarDeckExt 
+- [x] FGW2-45 Add tests for CreateBookInputService
+
+
+### 🗓️ 16.02
+- [x] FGW2-45 Look if triple can be made to model
+- [x] FGW2-45 Validate with team vehicle passenger logic
+
+### 🗓️ 19.02
+- [x] FGW2-45 Add passenger to the vehicle
+- [x] FGW2-45 Roundtrip logic for vehicles
+- [x] FGW2-45 Add AllVehicles to SailingsBookResponseType
+- [x] FGW2-45 Add VehicleRefs to SailingsBookResponseType
+
+### 20.02
+- [x] FGW2-45 Error "vehicle refs should be defined when isAllVehicles is false"
+- [x] FGW2-45 Validation for VehicleRef to match with VehicleType.id
+- [x] FGW2-45 Add message if code is defined - unnsuported, use operatorCode
+
+RECallbooking car id mapping
+
+### 21.02
+- [x] FGW2-45 What happens when heigth is 1
+- [x] FGW2-45 Why height and length are by default null
+- [x] FGW2-45 Increase test coverage to have mid-commit
+- [x] FGW2-45 Extra validation if no operatorcode, height and length are given
+- [x] FGW2-45 Add operatorCode to model from common
+- [x] FGW2-45 When outward has vehicle and return has allVehicles false, will then just vehicle not be added?
+- [x] FGW2-45 Add IsVehicleAvailable to SailingsBookResponseType
+- [x] FGW2-45 Create mapping of heigth and length to operatorCode
+
+
+### 22.02
+- [x] FGW2-45 Validation when code is wrong and operatorCode missing
+- [x] FGW2-45 Look into what happens when Vehicles or Vehicle is null - why not saying exactly what is missing
+
+### 27.02
+- [x] FGW2-45 BookInputService increase test coverage to remove @Generated annotation
+
+### 29.02
+- [x] Ask what tasks are not done in list?
+
+### 07.03
+- [x] FGW-667 Find where the difference comes in with correct sail
+
+
+
+### Overall Questions
+
+### UNDONE:
 - [ ] FGW2-42 Update the endpoint test content
 - [ ] FGW2-42 Increase Common test coverage (when Vehicle logic is finalized)
 - [ ] FGW2-42 Increase ClientFragmentExtTest coverage
-
-Questions  
-- Do all LeadVehicleType values need to be implemented from schema?
-- What will do with the FGW code
-- Now will not take phone from household but from mobilephone?
-
-### UNDONE:
-- [ ] FGW2-8 Add BookResponseLinks to FGW response
-- [ ] FGW2-8 Add FGW_PET classification to PET
-- [ ] FGW2-8 Valid payload, namespace
-- [ ] VehicleRefs
 
 <br/>
 
@@ -168,14 +217,17 @@ Pet classification added under SW addons
 
 ### Different reservations for testing
 
+#### SW DEV 270
+- 70306901 (with one car)
+- 70306902 (car withoud licencePlate)
+
+#### Unknown
 - 70030822 - Pets
 - 70306648 - has vehicles Lead and Trailer 
 - 498 - Client with full address fields
 - 70306731 - some Svetlanas
 - 70359795
-
-70306844
-
+- 70306844
 - 70306701 - in FGW1
 
 error 200 vs 400

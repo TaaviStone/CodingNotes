@@ -98,6 +98,11 @@ Used to o perform a certain operation only for non-null values
 #### Singelton method  
 Good source: https://www.geeksforgeeks.org/singleton-class-java/
 
+#### either {} & .bind
+
+
+#### Small either and big Either
+
 
 companion object
 
