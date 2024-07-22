@@ -1,0 +1,50 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header/>
+    <SOAP-ENV:Body>
+        <BookRequest xmlns="http://schemas.ferrygateway.org/1.3.1" >
+            <Context TimeStamp="2023-11-20T09:55:34.527" CountryCode="FIN" Currency="EUR" LanguagePrefCode="fi" TransactionId="5a086e77-e289-4c50-a0c8-2f9195a37f3f" AgentAccountNumber="123"></Context>
+            <Passengers>
+                <Passenger Id="a1" Age="44" DateOfBirth="1980-01-01" Category="Adult" LoyaltyCardId="" Gender="Male" Forename="Anna" Surname="Testaaja" IdentityIssueCountry="FIN"></Passenger>
+                <Passenger Id="a2" Age="44" DateOfBirth="1980-01-01" Category="Adult" LoyaltyCardId="" Gender="Male" Forename="markus" Surname="Testaaja" IdentityIssueCountry="FIN"></Passenger>
+                <Passenger Id="a3" Age="44" DateOfBirth="1980-01-01" Category="Adult" LoyaltyCardId="" Gender="Male" Forename="Tauno" Surname="Testaaja" IdentityIssueCountry="FIN"></Passenger>
+            </Passengers>
+            <ContactDetails PassengerId="a1" Forename="Anna" Surname="Testaaja" AddressLine1="Annelinn" AddressLine2="Saunamaja" City="Tartu" CountryCode="EST" ZipPostCode="123" MobileNumber="+3589777650" TelephoneNumber="123" Email="davai@email.com"></ContactDetails>
+            <FerryComponent Id="FC0">
+                <Sailings>
+                    <Sailing Id="S0" AllPassengers="true" AllVehicles="true">
+                        <SailingInfo DepartPort="FIHEL" DestinationPort="EETLL" DepartDateTime="2024-06-16T10:30:00"/>
+                        <Services>
+                            <OnBoardAccommodationServices>
+                                <OnBoardAccommodationService Code="A" Quantity="1" />
+                            </OnBoardAccommodationServices>
+                            <OnBoardMealServices>
+                                <OnBoardMealService Time="2024-06-16T10:00:00" FacilityCode="MYSTAR BUFFET" Code="LATEs" Quantity="1">
+                                    <PassengerRefs>
+                                        <Ref Id="a1"/>
+                                        <Ref Id="a2"/>
+                                    </PassengerRefs>
+                                </OnBoardMealService>
+                            </OnBoardMealServices>
+                        </Services>
+                    </Sailing>
+                    <Sailing Id="S1" AllPassengers="true" AllVehicles="true">
+                        <SailingInfo DepartPort="EETLL" DestinationPort="FIHEL" DepartDateTime="2024-06-17T07:30:00"/>
+                        <Services>
+                            <OnBoardAccommodationServices>
+                                <OnBoardAccommodationService Code="A" Quantity="1" />
+                            </OnBoardAccommodationServices>
+                            <OnBoardMealServices>
+                                <OnBoardMealService Time="2024-06-17T06:00:00" FacilityCode="MYSTAR BUFFET" Code="LATEs" Quantity="1">
+                                    <PassengerRefs>
+                                        <Ref Id="a1"/>
+                                        <Ref Id="a2"/>
+                                    </PassengerRefs>
+                                </OnBoardMealService>
+                            </OnBoardMealServices>
+                        </Services>
+                    </Sailing>
+                </Sailings>
+            </FerryComponent>
+        </BookRequest>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
